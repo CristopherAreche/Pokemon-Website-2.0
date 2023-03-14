@@ -1,0 +1,99 @@
+.img1 {
+  height: 90%;
+  overflow: visible;
+  background-repeat: no-repeat;
+}
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  background-image: url(../../images/wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  margin-top: 70px;
+  height: 40em;
+  width: 30em;
+  border-radius: 1em;
+  box-shadow: 1px 0px 31px 5px rgba(0, 0, 0, 0.4);
+  background-color: white;
+}
+.imageContainer {
+  width: 100%;
+  height: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 1em;
+  border-top-left-radius: 1em;
+}
+.textContainer {
+  height: 35%;
+  color: rgb(27, 27, 27);
+  width: 100%;
+}
+.pokemonName {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-left: 20px;
+  height: 30%;
+}
+.details {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.estadisticas {
+  width: 33%;
+  height: 100%;
+  padding-left: 20px;
+}
+.types {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.tLabel {
+  width: 4em;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.button {
+  background-color: #cf5f5f;
+  border-radius: 2.5em;
+  color: white;
+  font-size: 1em;
+  border-style: none;
+  height: 3em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-bottom: 2em;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover {
+  background-color: #be3131;
+  color: black;
+}
+
+@media screen and (max-width: 548px) {
+  .container {
+    width: 90%;
+    height: 500px;
+  }
+}

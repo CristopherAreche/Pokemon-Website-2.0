@@ -1,0 +1,83 @@
+.img1 {
+  width: 29em;
+  overflow: visible;
+  background-repeat: no-repeat;
+  padding: 1em;
+}
+.img2 {
+  width: 17em;
+}
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../../images/wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  background-color: hsla(0, 100%, 98%, 0.473);
+  display: flex;
+  height: auto;
+  width: 65em;
+  padding: 1em;
+  justify-content: center;
+  border-radius: 1em;
+  box-shadow: 1px 0px 31px 5px rgba(0, 0, 0, 0.4);
+}
+.imageContainer {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textContainer {
+  padding: 2em;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: rgb(27, 27, 27);
+  text-align: justify;
+  font-size: 20px;
+}
+.button {
+  background-color: #d14d41;
+  border-radius: 2.5em;
+  color: white;
+  font-size: 1em;
+  border-style: none;
+  height: 3em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.button:hover {
+  background-color: #a93a30;
+}
+
+@media screen and (max-width: 66em) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .imageContainer {
+    display: none;
+  }
+  .textContainer {
+    width: 100%;
+  }
+  .container {
+    padding: 0.2em;
+  }
+  .img2 {
+    width: 11em;
+  }
+  .button {
+  }
+}

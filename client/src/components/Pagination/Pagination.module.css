@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+}
+.btn {
+  background-color: #081f2d;
+  border-radius: 5%;
+  border: 1px solid #081f2d;
+  color: white;
+  font-size: 15px;
+  height: 3em;
+  width: 8em;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn[disabled] {
+  background-color: grey;
+  cursor: no-drop;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #081f2d;
+  border-color: #081f2d;
+  transition: 0.3s;
+}
+input {
+  height: 2.5em;
+  border-radius: 5%;
+}
+p {
+  color: white;
+}
